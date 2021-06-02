@@ -13,7 +13,7 @@ class IsCloseTo(BaseResolution):
     Examples::
 
         the_actor.should(
-            See.the(Element(MONEY_COUNT), IsCloseTo(MONEY_PREDICTED_COUNT, delta=25))
+            See.the(Number.of(BALLOONS), IsCloseTo(FILLED_BALLOONS_COUNT, delta=25))
         )
     """
 
